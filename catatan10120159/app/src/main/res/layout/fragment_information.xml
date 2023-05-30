@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EDEDED"
+    android:orientation="horizontal"
+    android:padding="25dp"
+    android:gravity="center"
+    tools:context=".fragment.InformationFragment">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_android_black_24dp"
+        app:tint="#8BC34A" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8BC34A"
+        android:textSize="21sp"
+        android:text="Aplikasi ini dibuat untuk memenuhi tugas UTS matakuliah Aplikasi Komputasi Bergerak"/>
+
+
+
+</LinearLayout>
